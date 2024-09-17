@@ -16,7 +16,7 @@ export interface NewProduct {
 }
 
 export interface SalesSummary {
-    salesSummaryId: String;
+    salesSummaryId: string;
     totalValue: number;
     changePercentage?: number;
     date: string;
